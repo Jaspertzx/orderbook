@@ -12,6 +12,7 @@ public:
     std::string toString() const;
 
 private:
+    std::string name;
     uint64_t nextId_ = 1;
     // TODO: store bids/asks and match orders
 };
